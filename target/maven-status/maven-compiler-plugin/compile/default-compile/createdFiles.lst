@@ -1,0 +1,8 @@
+com/example/SpringJPAMapping/dto/OrderRequest.class
+com/example/SpringJPAMapping/repository/ProductRepository.class
+com/example/SpringJPAMapping/controller/OrderController.class
+com/example/SpringJPAMapping/repository/CustomerRepository.class
+com/example/SpringJPAMapping/entity/Customer.class
+com/example/SpringJPAMapping/SpringJpaMappingApplication.class
+com/example/SpringJPAMapping/dto/OrderResponse.class
+com/example/SpringJPAMapping/entity/Product.class
