@@ -3,6 +3,16 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/example/SpringJPAMapping/controller/MyController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/example/SpringJPAMapping/dao/AddressDao.java">
           <value>
             <set />

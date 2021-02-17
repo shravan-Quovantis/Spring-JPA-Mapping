@@ -1,11 +1,8 @@
 package com.example.SpringJPAMapping.controller;
 
-import com.example.SpringJPAMapping.services.AddAddress;
-import com.example.SpringJPAMapping.services.AddCustomer;
-import com.example.SpringJPAMapping.entity.Customer;
-import com.example.SpringJPAMapping.dao.CustomerDao;
 import com.example.SpringJPAMapping.dao.AddressDao;
-import org.apache.tomcat.jni.Address;
+import com.example.SpringJPAMapping.dao.CustomerDao;
+import com.example.SpringJPAMapping.entity.Customer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -13,7 +10,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-public class OrderController {
+public class MyController {
 
     @Autowired
     private CustomerDao customerDao;
@@ -21,8 +18,8 @@ public class OrderController {
     private AddressDao addressDao;
 
     @PostMapping("/customers")
-    private Customer create(@RequestBody AddCustomer addCustomer) {
-        return customerDao.save(addCustomer.getCustomer());
+    private Customer create(@RequestBody Customer customer) {
+        return customerDao.save(customer);
     }
 
     @GetMapping("/customers")
@@ -36,7 +33,7 @@ public class OrderController {
     }
 
     @PutMapping("/customers")
-    private Customer update(@RequestBody AddCustomer addCustomer) {
-        return customerDao.save(addCustomer.getCustomer());
+    private Customer update(@RequestBody Customer customer) {
+        return customerDao.save(customer);
     }
 }
