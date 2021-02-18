@@ -8,6 +8,36 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../JDBC-REST-API/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../JDBC-REST-API/src/main/java/com/example/demo/Models/Address.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../JDBC-REST-API/src/main/java/com/example/demo/Models/Customer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../JDBC-REST-API/src/main/java/com/example/demo/controllers/myController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../JDBC-REST-API/src/main/java/com/example/demo/mapper/RowMapperImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../JDBC-REST-API/src/main/java/com/example/demo/services/CustomerDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/example/SpringJPAMapping/controller/MyController.java">
           <value>
             <set />
