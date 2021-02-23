@@ -1,8 +1,7 @@
-/home/shravan.kumar/IdeaProjects/Spring-JPA-Mapping/src/main/java/com/example/SpringJPAMapping/repository/CustomerRepository.java
+/home/shravan.kumar/IdeaProjects/Spring-JPA-Mapping/src/main/java/com/example/SpringJPAMapping/controller/MyController.java
+/home/shravan.kumar/IdeaProjects/Spring-JPA-Mapping/src/main/java/com/example/SpringJPAMapping/services/Services.java
 /home/shravan.kumar/IdeaProjects/Spring-JPA-Mapping/src/main/java/com/example/SpringJPAMapping/entity/Customer.java
-/home/shravan.kumar/IdeaProjects/Spring-JPA-Mapping/src/main/java/com/example/SpringJPAMapping/controller/OrderController.java
-/home/shravan.kumar/IdeaProjects/Spring-JPA-Mapping/src/main/java/com/example/SpringJPAMapping/entity/Product.java
-/home/shravan.kumar/IdeaProjects/Spring-JPA-Mapping/src/main/java/com/example/SpringJPAMapping/repository/ProductRepository.java
-/home/shravan.kumar/IdeaProjects/Spring-JPA-Mapping/src/main/java/com/example/SpringJPAMapping/dto/OrderResponse.java
-/home/shravan.kumar/IdeaProjects/Spring-JPA-Mapping/src/main/java/com/example/SpringJPAMapping/dto/OrderRequest.java
+/home/shravan.kumar/IdeaProjects/Spring-JPA-Mapping/src/main/java/com/example/SpringJPAMapping/dao/CustomerDao.java
+/home/shravan.kumar/IdeaProjects/Spring-JPA-Mapping/src/main/java/com/example/SpringJPAMapping/entity/Address.java
+/home/shravan.kumar/IdeaProjects/Spring-JPA-Mapping/src/main/java/com/example/SpringJPAMapping/dao/AddressDao.java
 /home/shravan.kumar/IdeaProjects/Spring-JPA-Mapping/src/main/java/com/example/SpringJPAMapping/SpringJpaMappingApplication.java
