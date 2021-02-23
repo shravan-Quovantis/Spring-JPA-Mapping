@@ -25,7 +25,7 @@ public class Services {
         return customerDao.findAll();
     }
 
-    public Optional<Customer> readCustomersById(int i){
+    public Optional<Customer> readCustomerById(int i){
         return customerDao.findById(i);
     }
 

@@ -27,7 +27,7 @@ public class MyController {
 
     @GetMapping("/customers/{id}")
     private Optional<Customer> getCustomerById(@PathVariable("id") int i) {
-        return services.readCustomersById(i);
+        return services.readCustomerById(i);
     }
 
     @PutMapping("/customers")
