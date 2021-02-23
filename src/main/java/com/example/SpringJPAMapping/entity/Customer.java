@@ -18,8 +18,9 @@ public class Customer {
     @Id
     @GeneratedValue
     private int id;
-    private String name;
+    @Column(unique=true)
     private String email;
+    private String name;
     private String gender;
 
     @OneToMany(targetEntity = Address.class, cascade = CascadeType.ALL)
