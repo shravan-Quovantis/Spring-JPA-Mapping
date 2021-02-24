@@ -3,6 +3,8 @@ package com.example.SpringJPAMapping.controller;
 import com.example.SpringJPAMapping.entity.Address;
 import com.example.SpringJPAMapping.entity.Customer;
 import com.example.SpringJPAMapping.services.Services;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -12,8 +14,11 @@ import java.util.Optional;
 @RestController
 public class MyController {
 
+    Logger logger = LoggerFactory.getLogger("MyController");
+
     @Autowired
     private Services services;
+
 
     @PostMapping("/customers")
     private Customer saveCustomer(@RequestBody Customer customer) {
@@ -22,6 +27,10 @@ public class MyController {
 
     @GetMapping("/customers")
     private List<Customer> getCustomers() {
+
+        //Testing of logger
+        logger.error("My generated Error Happened");
+
         return services.readCustomers();
     }
 
