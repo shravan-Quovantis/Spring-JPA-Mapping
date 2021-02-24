@@ -36,5 +36,4 @@ public class ConfigDBSecurity extends WebSecurityConfigurerAdapter {
     public BCryptPasswordEncoder encodePWD() {
         return new BCryptPasswordEncoder();
     }
-
 }

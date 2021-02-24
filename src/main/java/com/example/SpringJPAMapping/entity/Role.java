@@ -17,5 +17,5 @@ public class Role {
     @Id
     @GeneratedValue
     private int roleId;
-    private String userRole;
+    private String role;
 }
